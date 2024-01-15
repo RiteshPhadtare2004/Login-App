@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login CreateAccount</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="create_account">Create Account</string>
+    <string name="dont_have_account">Dont have account?</string>
+    <string name="password">password</string>
+    <string name="already_have_account">Already have account?</string>
+</resources>
