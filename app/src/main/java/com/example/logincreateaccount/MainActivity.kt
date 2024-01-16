@@ -7,13 +7,15 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.widget.AppCompatButton
+import androidx.appcompat.widget.AppCompatEditText
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var cAccountButton: TextView
-    lateinit var username: EditText
-    lateinit var password: EditText
-    lateinit var login: Button
+    lateinit var username: AppCompatEditText
+    lateinit var password: AppCompatEditText
+    lateinit var login: AppCompatButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
