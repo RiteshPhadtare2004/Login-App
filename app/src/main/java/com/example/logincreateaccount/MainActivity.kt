@@ -3,16 +3,12 @@ package com.example.logincreateaccount
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var cAccountButton: TextView
     lateinit var username: AppCompatEditText
     lateinit var password: AppCompatEditText
     lateinit var login: AppCompatButton
@@ -44,7 +40,6 @@ class MainActivity : AppCompatActivity() {
             showToast("Invalid username or password")
         }
     }
-
 
     private fun showToast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
